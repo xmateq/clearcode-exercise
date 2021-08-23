@@ -1,5 +1,6 @@
 from flask import Flask
 import socket
+import os
 
 app = Flask(__name__)
   
@@ -18,4 +19,4 @@ def ready():
 
   
 if __name__ == "__main__":
-    app.run(host ='0.0.0.0', port = 5001, debug = True)
+    app.run(host ='0.0.0.0', port = os.environ.get("PORT"), debug = os.environ.get("DEBUG"))

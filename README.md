@@ -14,3 +14,27 @@ Requirements:
 
 **Super nice to see:**
 - deployment to some kind of Kubernetes cluster (hosted or locally started)
+
+---
+
+## Prerequisites
+
+[Docker](https://docs.docker.com/get-docker/) installed and running.
+
+[Docker Compose](https://docs.docker.com/compose/install/) installed.
+
+
+## Build
+
+1. Clone this repository:
+```
+git clone https://github.com/xmateq/clearcode-exercise
+```
+2. Navigate to main directory:
+```
+cd devops-internship-challenge-2021
+```
+3. Build and run app locally with single command:
+```
+docker-compose up
+```
