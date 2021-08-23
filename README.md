@@ -34,7 +34,10 @@ git clone https://github.com/xmateq/clearcode-exercise
 ```
 cd devops-internship-challenge-2021
 ```
-3. Build and run app locally with single command:
+3. Copy ``.env.example`` as ``.env``, and set variables.
+
+4. Build and run app locally with single command:
 ```
 docker-compose up
 ```
+5. App will be available at [localhost:5001](http://localhost:5001)
