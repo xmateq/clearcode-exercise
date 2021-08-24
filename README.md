@@ -41,3 +41,4 @@ cd devops-internship-challenge-2021
 docker-compose up
 ```
 5. App will be available at [localhost:5001](http://localhost:5001)
+6. Deployed app is available at: https://clearcode-exercise.herokuapp.com/
